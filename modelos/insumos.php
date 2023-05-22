@@ -13,7 +13,6 @@ class Insumos extends Conexion {
     public $insu_proveedor;
     public $insu_precio;
 
-}
 public function __construct ($argumentos = [])
     {
         $this->insu_id = $argumentos ['insu_id'] ?? null;
@@ -31,4 +30,4 @@ public function __construct ($argumentos = [])
         $resultado = self::ejecutar($sql);
         return $resultado;
     }  
-<?
+}
