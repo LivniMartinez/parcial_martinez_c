@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="bg-dark text-white text-center p-2 w-100">Formulario de registro de insumos de la Oficina de Logistica</h1>
+        <h1 class="bg-dark text-white text-center p-3">Formulario de registro de insumos de la Oficina de Logística</h1>
         <div class="row justify-content-center">
             <form action="/parcial_martinez_c/controladores/insumos/guardar.php" method = "POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
